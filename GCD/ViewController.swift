@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // 1. User defined Queue
-//        self.simpleQueue()
+        self.simpleQueue()
         
         // 2. Async execution of task in Queue
 //        self.executeAsync()
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
 //        self.testWorkItem()
         
         // 9. ConcurrentPerform
-        self.concurrentPerform()
+//        self.concurrentPerform()
     }
 
     override func didReceiveMemoryWarning() {
